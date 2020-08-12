@@ -18,10 +18,9 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 后台系统身份验证拦截器
  *
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link https://github.com/newbee-ltd
+ * @author 慧燕
+
+ * @link https://github.com/huozhiwang
  */
 @Component
 public class AdminLoginInterceptor implements HandlerInterceptor {

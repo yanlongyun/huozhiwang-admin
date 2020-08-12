@@ -21,10 +21,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link https://github.com/newbee-ltd
+ * @author 慧燕
+
+ * @link https://github.com/huozhiwang
  */
 @Controller
 @RequestMapping("/admin")
@@ -33,6 +32,7 @@ public class AdminController {
     @Resource
     private AdminUserService adminUserService;
 
+    /*跳转登录页*/
     @GetMapping({"/login"})
     public String login() {
         return "admin/login";
@@ -43,7 +43,7 @@ public class AdminController {
         return "admin/test";
     }
 
-
+    /*在跳转到首页时，设置path的值给前端。前端根据path值设置格式*/
     @GetMapping({"", "/", "/index", "/index.html"})
     public String index(HttpServletRequest request) {
         request.setAttribute("path", "index");

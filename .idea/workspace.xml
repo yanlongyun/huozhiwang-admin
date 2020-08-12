@@ -1,7 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db715976-d658-4d34-bd53-29b76e2cbac4" name="Default Changelist" comment="" />
+    <list default="true" id="db715976-d658-4d34-bd53-29b76e2cbac4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/huozhi-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/index-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/HuozhiwangApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/HuozhiwangApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/IndexConfigTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/IndexConfigTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/NewBeeMallCategoryLevelEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/CategoryLevelEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/NewBeeMallException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/MallException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/NewBeeMallOrderStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/OrderStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/PayStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/PayStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/PayTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/PayTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/ServiceResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/common/ServiceResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/config/NeeBeeMallWebMvcConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/config/MallWebMvcConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/NewBeeMallCarouselController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/CarouselController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/NewBeeMallGoodsCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/GoodsCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/NewBeeMallGoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/NewBeeMallGoodsIndexConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/GoodsIndexConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/NewBeeMallOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/NewBeeMallUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/common/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/common/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/common/NewBeeMallExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/common/MallExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/common/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/common/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallGoodsDetailVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/GoodsDetailVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallIndexCarouselVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/IndexCarouselVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallIndexCategoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/IndexCategoryVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallIndexConfigGoodsVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/IndexConfigGoodsVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallOrderDetailVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/OrderDetailVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallOrderItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/OrderItemVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallOrderListVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/OrderListVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallSearchGoodsVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/SearchGoodsVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallShoppingCartItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/ShoppingCartItemVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/NewBeeMallUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/controller/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/NewBeeMallGoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/GoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/NewBeeMallOrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/OrderItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/NewBeeMallOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/NewBeeMallShoppingCartItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/dao/ShoppingCartItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/NewBeeMallGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/HuoZhiMallGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/NewBeeMallOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/MallOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/NewBeeMallOrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/MallOrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/NewBeeMallShoppingCartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/entity/MallShoppingCartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/interceptor/AdminLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/interceptor/AdminLoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/interceptor/NewBeeMallCartNumberInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/interceptor/NewBeeMallLoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/NewBeeMallCarouselService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/CarouselService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/NewBeeMallCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/NewBeeMallGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/NewBeeMallIndexConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/IndexConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/NewBeeMallOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/NewBeeMallUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/NewBeeMallCarouselServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/CarouselServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/NewBeeMallCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/NewBeeMallGoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/NewBeeMallIndexConfigServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/IndexConfigServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/NewBeeMallOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/NewBeeMallUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/NewBeeMallUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/MallUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/NumberUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/NumberUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/PageQueryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/PageQueryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/PatternUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/PatternUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/ResultGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/ResultGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/SystemUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/util/SystemUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CarouselMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GoodsCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/IndexConfigMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/IndexConfigMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MallUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MallUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NewBeeMallGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NewBeeMallOrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NewBeeMallOrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NewBeeMallShoppingCartItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShoppingCartItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/new-bee-logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/new-bee-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/img/newbee-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/newbee_mall_carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/mall_carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/newbee_mall_category.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/mall_category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/newbee_mall_goods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/mall_goods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/newbee_mall_goods_edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/mall_goods_edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/newbee_mall_index_config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/mall_index_config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/newbee_mall_order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/mall_order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/newbee_mall_user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/dist/js/mall_user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/donate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/hua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/ji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/login-logo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/login-logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/new-bee-logo-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/new-bee.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/new-bee2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/search-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/mall/image/tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/newbee_mall_carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mall_carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/newbee_mall_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mall_category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/newbee_mall_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mall_goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/newbee_mall_goods_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mall_goods_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/newbee_mall_index_config.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mall_index_config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/newbee_mall_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mall_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/newbee_mall_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/mall_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/HuozhiwangApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/HuozhiwangApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/IndexConfigTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/IndexConfigTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/NewBeeMallCategoryLevelEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/NewBeeMallException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/NewBeeMallOrderStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/PayStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/PayStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/PayTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/PayTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/ServiceResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/common/ServiceResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/config/NeeBeeMallWebMvcConfigurer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/NewBeeMallCarouselController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/NewBeeMallGoodsCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/NewBeeMallGoodsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/NewBeeMallGoodsIndexConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/NewBeeMallOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/NewBeeMallUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/common/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/common/CommonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/common/NewBeeMallExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/common/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/common/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallGoodsDetailVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallIndexCarouselVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallIndexCategoryVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallIndexConfigGoodsVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallOrderDetailVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallOrderItemVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallOrderListVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallSearchGoodsVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallShoppingCartItemVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/controller/vo/NewBeeMallUserVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/dao/NewBeeMallGoodsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/dao/NewBeeMallOrderItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/dao/NewBeeMallOrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/dao/NewBeeMallShoppingCartItemMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/entity/NewBeeMallGoods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/entity/NewBeeMallOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/entity/NewBeeMallOrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/entity/NewBeeMallShoppingCartItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/interceptor/AdminLoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/interceptor/AdminLoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/interceptor/NewBeeMallCartNumberInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/interceptor/NewBeeMallLoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/NewBeeMallCarouselService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/NewBeeMallCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/NewBeeMallGoodsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/NewBeeMallIndexConfigService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/NewBeeMallOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/NewBeeMallUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/impl/NewBeeMallCarouselServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/impl/NewBeeMallCategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/impl/NewBeeMallGoodsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/impl/NewBeeMallIndexConfigServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/impl/NewBeeMallOrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/service/impl/NewBeeMallUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/NewBeeMallUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/NumberUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/NumberUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/PageQueryUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/PageQueryUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/PageResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/PatternUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/PatternUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/ResultGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/ResultGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/SystemUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huiyan/huozhiwang/util/SystemUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CarouselMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CarouselMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/IndexConfigMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/IndexConfigMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/MallUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/MallUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NewBeeMallGoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NewBeeMallOrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NewBeeMallOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NewBeeMallShoppingCartItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/dist/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/img/new-bee-logo-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/img/new-bee-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/img/newbee-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/js/newbee_mall_carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/js/newbee_mall_category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/js/newbee_mall_goods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/js/newbee_mall_goods_edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/js/newbee_mall_index_config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/js/newbee_mall_order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/dist/js/newbee_mall_user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/donate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/hua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/ji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/login-logo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/login-logo.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/new-bee-logo-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/new-bee.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/new-bee2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/search-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/mall/image/tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/newbee_mall_carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/newbee_mall_category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/newbee_mall_goods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/newbee_mall_goods_edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/newbee_mall_index_config.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/newbee_mall_order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/newbee_mall_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/sidebar.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +241,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/program/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -22,6 +257,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1fqskj3mefbZHTAh0WVYLO4Pg3i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,16 +269,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/admin/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/admin/dist/img" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\yan\project\admin\src\main\resources\static\admin" />
-      <recent name="D:\yan\project\admin\src\main\resources\templates\admin" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\yan\project\huozhiwang-admin\src\main\resources\static\admin\dist\img" />
+      <recent name="D:\yan\project\huozhiwang-admin\src\main\resources\static\mall\image" />
+      <recent name="D:\yan\project\admin\src\main\resources\static\admin\dist" />
+      <recent name="D:\yan\project\admin\src\main\resources\templates" />
+      <recent name="D:\yan\project\admin\src\main\java\com\huiyan\huozhiwang\common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.huiyan.huozhiwang.service.impl" />
@@ -49,18 +290,16 @@
       <recent name="com.huiyan.huozhiwang.config" />
       <recent name="com.huiyan.huozhiwang.controller.vo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\yan\project\admin\src\main\resources\static\admin\dist" />
-      <recent name="D:\yan\project\admin\src\main\resources\templates" />
-      <recent name="D:\yan\project\admin\src\main\java\com\huiyan\huozhiwang\common" />
-      <recent name="D:\yan\project\admin\src\main\resources" />
-      <recent name="D:\yan\project\admin\src\main\resources\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\yan\project\huozhiwang-admin\src\main\resources\static\admin\dist\img" />
+      <recent name="D:\yan\project\admin\src\main\resources\static\admin" />
+      <recent name="D:\yan\project\admin\src\main\resources\templates\admin" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="HuozhiwangApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huiyan.huozhiwang.HuozhiwangApplication" />
-      <module name="admin" />
+      <module name="huozhiwang-admin" />
       <option name="WORKING_DIRECTORY" value="$MAVEN_REPOSITORY$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,6 +327,9 @@
       <updated>1596957101934</updated>
       <workItem from="1596957103354" duration="498000" />
       <workItem from="1596957935815" duration="9640000" />
+      <workItem from="1596991135451" duration="158000" />
+      <workItem from="1597135226383" duration="7256000" />
+      <workItem from="1597228258161" duration="6990000" />
     </task>
     <servers />
   </component>
@@ -95,14 +337,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="386" y="27" width="594" height="674" key="#HuozhiwangApplication" timestamp="1597135334447">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="386" y="27" width="594" height="674" key="#HuozhiwangApplication/0.0.1366.728@0.0.1366.728" timestamp="1597135334447" />
     <state x="275" y="24" key="#Project_Structure" timestamp="1596962644508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1596962644508" />
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596962848609">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597135312638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1596962848609" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597135312638" />
     <state x="370" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596988666694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -115,50 +361,80 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="152" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1596962708026" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597230722203">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1597230722203" />
+    <state x="749" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597229347316">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="749" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597229347316" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1596988456563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596988456563" />
-    <state width="1322" height="556" key="GridCell.Tab.0.bottom" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.0.bottom" timestamp="1597235624802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state width="1322" height="556" key="GridCell.Tab.0.center" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597235624802" />
+    <state width="1322" height="437" key="GridCell.Tab.0.center" timestamp="1597235624802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state width="1322" height="556" key="GridCell.Tab.0.left" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597235624802" />
+    <state width="1322" height="437" key="GridCell.Tab.0.left" timestamp="1597235624802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state width="1322" height="556" key="GridCell.Tab.0.right" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597235624802" />
+    <state width="1322" height="437" key="GridCell.Tab.0.right" timestamp="1597235624802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state width="1322" height="182" key="GridCell.Tab.1.bottom" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597235624802" />
+    <state width="1322" height="437" key="GridCell.Tab.1.bottom" timestamp="1597235624803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state width="1322" height="182" key="GridCell.Tab.1.center" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597235624803" />
+    <state width="1322" height="437" key="GridCell.Tab.1.center" timestamp="1597235624802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state width="1322" height="182" key="GridCell.Tab.1.left" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597235624802" />
+    <state width="1322" height="437" key="GridCell.Tab.1.left" timestamp="1597235624802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state width="1322" height="182" key="GridCell.Tab.1.right" timestamp="1596990851980">
+    <state width="1322" height="437" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597235624802" />
+    <state width="1322" height="437" key="GridCell.Tab.1.right" timestamp="1597235624803">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="182" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596990851980" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1596990738167">
+    <state width="1322" height="437" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597235624803" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1596991170025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596990738167" />
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596991170025" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1597135240376">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597135240376" />
+    <state x="370" y="119" width="759" height="548" key="find.popup" timestamp="1597232975674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="370" y="119" width="759" height="548" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1597232975674" />
     <state x="53" y="67" key="new project wizard" timestamp="1596988966409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="53" y="67" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1596988966409" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/huiyan/huozhiwang/service/GoodsService.java</url>
+          <line>55</line>
+          <properties class="com.huiyan.huozhiwang.service.GoodsService" method="getMallGoodsById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/admin$HuozhiwangApplication.ic" NAME="HuozhiwangApplication Coverage Results" MODIFIED="1596988095321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

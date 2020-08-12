@@ -3,10 +3,9 @@ package com.huiyan.huozhiwang.util;
 import java.io.Serializable;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link https://github.com/newbee-ltd
+ * @author 慧燕
+
+ * @link https://github.com/huozhiwang
  */
 public class Result<T> implements Serializable {
     private static final long serialVersionUID = 1L;

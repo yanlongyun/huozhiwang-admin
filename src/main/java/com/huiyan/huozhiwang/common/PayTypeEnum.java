@@ -9,10 +9,9 @@
 package com.huiyan.huozhiwang.common;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link https://github.com/newbee-ltd
+ * @author 慧燕
+
+ * @link https://github.com/huozhiwang
  * @apiNote 订单状态:0.无 1.支付宝 2.微信支付
  */
 public enum PayTypeEnum {

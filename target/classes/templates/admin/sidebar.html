@@ -4,10 +4,10 @@
 <aside th:fragment="sidebar-fragment(path)" class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a th:href="@{/admin/index}" class="brand-link">
-        <img th:src="@{/admin/dist/img/new-bee-logo-1.png}" alt="ssm-cluster Logo"
+        <img th:src="@{/admin/dist/img/huozhi-logo.png}" alt="ssm-cluster Logo"
              class="brand-image img-circle elevation-3"
              style="opacity: .8">
-        <span class="brand-text font-weight-light">NEWBEE商城</span>
+        <span class="brand-text font-weight-light">货值网</span>
     </a>
     <!-- Sidebar -->
     <div class="sidebar">
@@ -37,7 +37,7 @@
                 <li class="nav-header">首页配置</li>
                 <li class="nav-item">
                     <a th:href="@{/admin/carousels}"
-                       th:class="${path}=='newbee_mall_carousel'?'nav-link active':'nav-link'">
+                       th:class="${path}=='mall_carousel'?'nav-link active':'nav-link'">
                         <i class="nav-icon fa fa-file-image-o"></i>
                         <p>
                             轮播图配置
@@ -74,7 +74,7 @@
                 <li class="nav-header">管理模块</li>
                 <li class="nav-item">
                     <a th:href="@{/admin/categories?parentId=0&categoryLevel=1&backParentId=0}"
-                       th:class="${path}=='newbee_mall_category'?'nav-link active':'nav-link'">
+                       th:class="${path}=='mall_category'?'nav-link active':'nav-link'">
                         <i class="fa fa-list-alt nav-icon" aria-hidden="true"></i>
                         <p>
                             分类管理
@@ -82,7 +82,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a th:href="@{/admin/goods}" th:class="${path}=='newbee_mall_goods'?'nav-link active':'nav-link'">
+                    <a th:href="@{/admin/goods}" th:class="${path}=='mall_goods'?'nav-link active':'nav-link'">
                         <i class="fa fa-archive nav-icon" aria-hidden="true"></i>
                         <p>
                             商品管理

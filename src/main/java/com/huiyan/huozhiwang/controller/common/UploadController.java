@@ -9,7 +9,7 @@
 package com.huiyan.huozhiwang.controller.common;
 
 import com.huiyan.huozhiwang.common.Constants;
-import com.huiyan.huozhiwang.util.NewBeeMallUtils;
+import com.huiyan.huozhiwang.util.MallUtils;
 import com.huiyan.huozhiwang.util.Result;
 import com.huiyan.huozhiwang.util.ResultGenerator;
 import org.springframework.stereotype.Controller;
@@ -29,10 +29,9 @@ import java.util.Date;
 import java.util.Random;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link https://github.com/newbee-ltd
+ * @author 慧燕
+
+ * @link https://github.com/huozhiwang
  */
 @Controller
 @RequestMapping("/admin")
@@ -60,7 +59,7 @@ public class UploadController {
             }
             file.transferTo(destFile);
             Result resultSuccess = ResultGenerator.genSuccessResult();
-            resultSuccess.setData(NewBeeMallUtils.getHost(new URI(httpServletRequest.getRequestURL() + "")) + "/upload/" + newFileName);
+            resultSuccess.setData(MallUtils.getHost(new URI(httpServletRequest.getRequestURL() + "")) + "/upload/" + newFileName);
             return resultSuccess;
         } catch (IOException e) {
             e.printStackTrace();

@@ -4,10 +4,9 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link https://github.com/newbee-ltd
+ * @author 慧燕
+
+ * @link https://github.com/huozhiwang
  */
 public class SystemUtil {
 

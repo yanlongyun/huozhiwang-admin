@@ -24,10 +24,8 @@ import java.io.ByteArrayOutputStream;
 import java.util.Properties;
 
 /**
- * @author 13
- * @qq交流群 796794009
- * @email 2449207463@qq.com
- * @link https://github.com/newbee-ltd
+ * @author 慧燕
+ * @link https://github.com/huozhiwang
  */
 @Controller
 public class CommonController {
@@ -63,7 +61,7 @@ public class CommonController {
     @GetMapping("/common/mall/kaptcha")
     public void mallKaptcha(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
         /*首先创建默认的验证码*/
-        DefaultKaptcha newBeeMallLoginKaptcha = new DefaultKaptcha();
+        DefaultKaptcha mallLoginKaptcha = new DefaultKaptcha();
         Properties properties = new Properties();
         //验证码边框，无
         properties.put("kaptcha.border", "no");
@@ -84,7 +82,7 @@ public class CommonController {
         //验证码长度
         properties.put("kaptcha.textproducer.char.length", "6");
         Config config = new Config(properties);
-        newBeeMallLoginKaptcha.setConfig(config);
+        mallLoginKaptcha.setConfig(config);
 
         /*创建字节数组用于存储图片*/
         byte[] captchaOutputStream = null;
@@ -92,11 +90,11 @@ public class CommonController {
         ByteArrayOutputStream imgOutputStream = new ByteArrayOutputStream();
         try {
             //生产验证码字符串
-            String verifyCode = newBeeMallLoginKaptcha.createText();
+            String verifyCode = mallLoginKaptcha.createText();
             // 将验证码字符串保存在session中。
             httpServletRequest.getSession().setAttribute(Constants.MALL_VERIFY_CODE_KEY, verifyCode);
             // 使用生成的验证码字符串，完成图片的生成
-            BufferedImage challenge = newBeeMallLoginKaptcha.createImage(verifyCode);
+            BufferedImage challenge = mallLoginKaptcha.createImage(verifyCode);
             // 将图片写入到流中。
             ImageIO.write(challenge, "jpg", imgOutputStream);
         } catch (IllegalArgumentException e) {
